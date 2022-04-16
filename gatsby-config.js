@@ -3,7 +3,7 @@ module.exports = {
     title: `은은한 개발자의 블로그`,
     description: `은은한 개발자의 블로그입니다.`,
     author: `Jongeun`,
-    siteUrl: 'https://bellsilver7.tistory.com',
+    siteUrl: 'https://bellsilver7.github.io/',
   },
   plugins: [
     {
@@ -30,6 +30,13 @@ module.exports = {
           quality: 100,
           placeholder: 'blurred',
         },
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-canonical-urls',
+      options: {
+        siteUrl: 'https://bellsilver7.github.io/',
+        stripQueryString: true,
       },
     },
     `gatsby-transformer-sharp`,
