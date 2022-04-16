@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-index-tsx",
+    "path": "/",
+    "result": {"data":{"allMarkdownRemark":{"edges":[{"node":{"id":"12bad22b-2e40-5a93-9100-fcbb1d0c9c08","fields":{"slug":"/Default/"},"frontmatter":{"title":"First","summary":"테스트 작성 글입니다.","date":"2022.04.16.","categories":["Web","SEO","Optimization"],"thumbnail":{"publicURL":"/static/7731512ab4679c8f54162ef575cca900/Default.png"}}}}]}},"pageContext":{}},
+    "staticQueryHashes": []}
